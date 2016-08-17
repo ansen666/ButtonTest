@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_click_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button点击事件写法1" />
+
+    <Button
+        android:id="@+id/btn_click_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="Button点击事件写法2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/icon_button_bg"
+        android:padding="10dp"
+        android:text="Button设置背景图片" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:padding="10dp"
+        android:text="Button设置背景颜色" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_button_test"
+        android:padding="10dp"
+        android:text="Button设置shape" />
+
+    <TextView
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="V7包按钮样式"
+        android:textColor="#ffffffff"
+        android:textSize="20sp" />
+
+</LinearLayout>
